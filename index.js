@@ -36,11 +36,11 @@ console.log(req.body)
     html: `
     <div style="font-family: Arial, sans-serif; color: #333;">
       <h1 style="color: #3498db; margin:auto">Sender's Information:</h1>
-      <p style="margin-bottom: 10px">Yay! 🎉 Received a wonderful message on social media! Feeling so happy and grateful. 😊🎉</p>
-      <p style="margin-bottom: 10px; color: red;"><strong>Name:</strong> ${name}</p>
-      <p style="margin-bottom: 10px; color: green;"><strong> Email:</strong> ${email}</p>
-      <p style="margin-bottom: 10px; color: yellow;"><strong> Subject:</strong> ${subject}</p>
-      <p style="margin-bottom: 10px; color: pink;"><strong>Message:</strong> ${message}</p>
+      <h3 style="margin-bottom: 10px">Yay! 🎉 Received a wonderful message on social media! Feeling so happy and grateful. 😊🎉</h3>
+      <h3 style="margin-bottom: 10px; color: red;"><strong>Name:</strong> ${name}</h3>
+      <h3 style="margin-bottom: 10px; color: green;"><strong> Email:</strong> ${email}</h3>
+      <h3 style="margin-bottom: 10px; color: cyan;"><strong> Subject:</strong> ${subject}</h3>
+      <h3 style="margin-bottom: 10px; color: orange;"><strong>Message:</strong> ${message}</h3>
     </div>
   `,
   };
